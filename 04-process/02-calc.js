@@ -1,14 +1,14 @@
 #!/usr/bin/node
 
 
-var argv =process.argv;
+const argv =process.argv;
 
-console.log('arguments number:',argv.length);
-console.log('arguments:',argv);
+//console.log('arguments number:',argv.length);
+//console.log('arguments:',argv);
 
 
-var expression =argv[2];
-console.log(expression +'=%d',eval(expression));
+const expression =argv[2];
+//console.log(expression +'=%d',eval(expression));
 
 
 if (typeof(expression)==='undefined' ||
