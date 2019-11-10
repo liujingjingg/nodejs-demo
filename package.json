@@ -18,5 +18,9 @@
   "homepage": "https://github.com/liujingjingg/nodejs-demo#readme",
   "devDependencies": {
     "eslint": "^6.4.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
   }
 }
